@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>菌种库</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+    <div id="library-container" class="container">
+        <h1>菌种库</h1>
+        <table id="library-table">
+            <thead>
+                <tr>
+                    <th>菌种</th>
+                    <th>温度范围 (°C)</th>
+                    <th>湿度范围 (%)</th>
+                    <th>土壤 pH 范围</th>
+                </tr>
+            </thead>
+            <tbody id="library-body">
+                <!-- 数据将显示在这里 -->
+            </tbody>
+        </table>
+        <button id="back-home-button" onclick="window.location.href='/home.html'">返回主页</button>
+    </div>
+
+    <script src="/library.js"></script>
+</body>
+
+</html>

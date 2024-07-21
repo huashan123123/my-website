@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最适菌种智能选品</title>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+
+<body>
+    <div id="filter-container" class="container">
+        <h1>最适菌种智能选品</h1>
+        <form id="filter-form">
+            <label for="temperature">温度 (°C):</label>
+            <input type="number" id="temperature" name="temperature" step="0.1" placeholder="例如：20">
+
+            <label for="humidity">湿度 (%):</label>
+            <input type="number" id="humidity" name="humidity" step="0.1" placeholder="例如：60">
+
+            <label for="soil_ph">土壤 pH:</label>
+            <input type="number" id="soil_ph" name="soil_ph" step="0.1" placeholder="例如：6.5">
+
+            <button type="submit">查找菌种</button>
+        </form>
+    </div>
+
+    <script src="/script.js"></script>
+</body>
+
+</html>
